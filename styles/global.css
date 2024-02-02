@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1080px;
+  margin: 0 auto;
+  font-family: FuturaPT-Book, sans-serif;
+  background-color: #0A1828;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+  color: #EBCDAD;
+}
+
+a {
+  color: inherit;
+  color: #EBCDAD;
+}
+
+img {
+  width: 100%;
+}

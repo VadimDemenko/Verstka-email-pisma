@@ -1,0 +1,483 @@
+.cover {
+  width: 1080px;
+  height: 591px;
+}
+
+.img__cover {
+  width: 100%;
+  height: 100%;
+}
+
+.title__cover {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 46px;
+  padding-bottom: 97px;
+  position: relative;
+}
+
+.title__text {
+  font-family: Calypso;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 66px;
+  letter-spacing: 0em;
+  text-align: center;
+  max-width: 732px;
+}
+
+.title__text__decor {
+  border-bottom: 1px solid #EBCDAD;
+}
+
+.text__cover {
+  font-family: Futura PT;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+  max-width: 436px;
+  margin-top: 14px;
+}
+
+.title__cover::after {
+  content: '';
+  background-image: url(../images/img_like.svg);
+  position: absolute;
+  width: 110px;
+  height: 86px;
+  left: 34px;
+  top: 29px
+}
+
+.how_do {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 78px;
+}
+
+.img__how_do {
+  width: 143px;
+  height: 142px;
+}
+
+.title__how_do {
+  font-family: Calypso;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.block__how_do {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px 77px;
+  padding-left: 88px;
+  padding-right: 76px;
+}
+
+.card__block__how_do {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.preparation {
+  width: 401px;
+}
+
+.announcement {
+  width: 355px;
+}
+
+.carrying {
+  width: 401px;
+}
+
+.creating_media_content {
+  width: 355px;
+}
+
+.title__block {
+  font-family: Futura PT;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.title__point {
+  font-family: Futura PT;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.text__point {
+  font-family: Futura PT;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 4px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.point {
+  list-style: none;
+  position: relative;
+}
+
+.point::after {
+  content: '';
+  background-image: url(../images/img_love_punkt.svg);
+  width: 37px;
+  height: 37px;
+  position: absolute;
+  left: -40px;
+  top: -5px;
+}
+
+.button__point {
+  background-color: #EAF08E;
+  border-radius: 6px;
+  min-width: 156px;
+  min-height: 42px;
+  margin-top: 10px;
+  border: none;
+  font-family: Futura PT;
+  font-size: 13px;
+  font-weight: 450;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.button__point:hover {
+  background-color: #C2C866;
+  border-radius: 6px;
+  min-width: 156px;
+  min-height: 42px;
+  margin-top: 10px;
+  border: none;
+  font-family: Futura PT;
+  font-size: 13px;
+  font-weight: 450;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.why__us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img__whu__us {
+  width: 117px;
+  height: 153px;
+}
+
+.title__why__us {
+  font-family: Calypso;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 19px;
+}
+
+.card__gap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  width: 528px;
+  height: 138px;
+  align-items: center;
+  border-color: #0A1828;
+  border-radius: 32px;
+  box-shadow:inset -7px -8px 12px -6px rgba(53, 67, 83, 0.4), inset 8px 7px 10px -6px rgba(0, 0, 13, 0.75);
+  justify-content: space-between;
+}
+
+.title__card {
+  font-family: Futura PT;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 319px;
+  margin-left: 53px;
+}
+
+.img__card__ponchiks {
+  width: 167px;
+  height: 102px;
+  margin-right: 23px;
+}
+
+.img__card__ruport {
+  width: 114px;
+  height: 114px;
+  margin-right: 28px;
+}
+
+.img__card__radio {
+  width: 113px;
+  height: 109px;
+  margin-right: 45px;
+}
+
+.img__card__ruki_i_serdce {
+  width: 100px;
+  height: 95px;
+  margin-right: 36px;
+}
+
+.image__block {
+  display: block;
+  width: 1052px;
+  height: 881px;
+  margin-top: 125px;
+  margin-bottom: 116px;
+}
+
+.img__image__block {
+  width: 100%;
+  height: 100%;
+}
+
+.rate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title__rate {
+  font-family: Calypso;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding-bottom: 27px;
+}
+
+.rate__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 491px;
+  height: 809px;
+  box-shadow:inset -6px -6px 8px -3px rgba(53, 67, 83, 1), inset 8px 7px 8px -3px rgba(0, 0, 13, 1);
+  border-radius: 66px;
+}
+
+.img__rate__samolet {
+  width: 172px;
+  height: 172px;
+}
+
+.title__rate__card {
+  font-family: Futura PT;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: -7px;
+  margin-bottom: 10px;
+}
+
+.img__rate__stars {
+  width: 98px;
+  height: 20px;
+}
+
+.text__rate {
+  font-family: Futura PT;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.price__rate {
+  font-family: Futura PT;
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 64px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+
+.point__rate {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 14px;
+  margin-left: 65px;
+}
+
+.text__point__rate {
+  font-family: Futura PT;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  list-style: none;
+  position: relative;
+}
+
+.text__point__rate:after {
+  content: '';
+  background-image: url(../images/check_punkt.svg);
+  position: absolute;
+  width: 17px;
+  height: 18px;
+  left: -26px;
+  top: 2px;
+}
+
+.button__rate {
+  background-color: #EAF08E;
+  border-radius: 10px;
+  min-width: 310px;
+  min-height: 68px;
+  margin-top: 75px;
+  border: none;
+  font-family: FuturaPT-BoldObl, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.button__rate:hover {
+  background-color: #C2C866;
+  border-radius: 10px;
+  min-width: 310px;
+  min-height: 68px;
+  margin-top: 75px;
+  border: none;
+  font-family: FuturaPT-BoldObl, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.url__rate {
+  font-family: Futura PT;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 18px;
+}
+
+.footer {
+  display: flex;
+  padding: 11px 63px 25px 40px;
+  justify-content: space-between;
+}
+
+.footer__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end
+}
+
+.img__footer {
+  width: 497px;
+  height: 554px;
+}
+
+.button__footer {
+  background-color: #EAF08E;
+  border-radius: 10px;
+  min-width: 336px;
+  min-height: 68px;
+  margin-top: 6px;
+  border: none;
+  font-family: FuturaPT-BoldObl, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.button__footer:hover {
+  background-color: #C2C866;
+  border-radius: 10px;
+  min-width: 336px;
+  min-height: 68px;
+  margin-top: 6px;
+  border: none;
+  font-family: FuturaPT-BoldObl, sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.img__logo {
+  width: 147px;
+  height: 87px;
+  margin-bottom: 23px; 
+}
+
+.img__qu_code {
+  width: 243px;
+  height: 245px;
+}
+
+.text__footer {
+  font-family: Futura PT, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 12px;
+}
